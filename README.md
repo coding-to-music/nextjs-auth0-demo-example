@@ -15,7 +15,11 @@ https://github.com/nextauthjs/next-auth-example
 ## Environment Values
 
 ```java
-
+AUTH0_SECRET='LONG_RANDOM_VALUE_32_CHARACTERS_LONG'
+AUTH0_BASE_URL='http://localhost:3000'
+AUTH0_ISSUER_BASE_URL='https://YOUR_AUTH0_DOMAIN.auth.com'
+AUTH0_CLIENT_ID='YOUR_AUTH0_CLIENT_ID'
+AUTH0_CLIENT_SECRET='YOUR_AUTH0_CLIENT_SECRET'
 ```
 
 This is a [Next.js](https://nextjs.org/) project bootstrapped with [`create-next-app`](https://github.com/vercel/next.js/tree/canary/packages/create-next-app).
