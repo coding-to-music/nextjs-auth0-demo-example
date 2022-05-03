@@ -1,3 +1,23 @@
+# nextjs-auth0-demo-example
+
+# 🚀 Javascript full-stack 🚀
+
+https://github.com/coding-to-music/nextjs-auth0-demo-example
+
+https://nextjs-auth0-demo-example.vercel.app
+
+https://nextjs-auth0-demo-example.herokuapp.com
+
+by Next Auth - Getting Started https://next-auth.js.org/getting-started/example
+
+https://github.com/nextauthjs/next-auth-example
+
+## Environment Values
+
+```java
+
+```
+
 This is a [Next.js](https://nextjs.org/) project bootstrapped with [`create-next-app`](https://github.com/vercel/next.js/tree/canary/packages/create-next-app).
 
 ## Getting Started
@@ -32,3 +52,39 @@ You can check out [the Next.js GitHub repository](https://github.com/vercel/next
 The easiest way to deploy your Next.js app is to use the [Vercel Platform](https://vercel.com/new?utm_medium=default-template&filter=next.js&utm_source=create-next-app&utm_campaign=create-next-app-readme) from the creators of Next.js.
 
 Check out our [Next.js deployment documentation](https://nextjs.org/docs/deployment) for more details.
+
+## GitHub
+
+```java
+git init
+git add .
+git remote remove origin
+git commit -m "first commit"
+git branch -M main
+git remote add origin git@github.com:coding-to-music/nextjs-auth0-demo-example.git
+git push -u origin main
+```
+
+## Heroku
+
+```java
+heroku create nextjs-auth0-demo-example
+```
+
+## Heroku MongoDB Environment Variables
+
+```java
+heroku config:set
+
+heroku config:set MONGODB_URI="your value"
+```
+
+## Push to Heroku
+
+```java
+git push heroku
+
+# or
+
+npm run deploy
+```
