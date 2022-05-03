@@ -1,5 +1,6 @@
 import Link from "next/link";
 import Button from "./Button";
+import Photo from "./Photo";
 import Logo from "./Logo";
 
 const Header = ({ userLoggedIn }) => {
@@ -13,12 +14,15 @@ const Header = ({ userLoggedIn }) => {
             <Button type="Sign In" url="/api/auth/login" />
           ) : (
             <div className="flex justify-center items-center space-x-4">
-            <Link href="/members-only">
-              <a className="text-2xl font-semibold text-indigo-200 mx-3">Members Only</a>
-            </Link>
+              <Link href="/members-only">
+                <a className="text-2xl font-semibold text-indigo-200 mx-3">
+                  Members Only
+                </a>
+              </Link>
               <Button type="Logout" url="/api/auth/logout" />
             </div>
           )}
+          <Logo />
         </div>
       </div>
     </header>

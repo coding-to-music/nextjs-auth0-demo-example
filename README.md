@@ -22,6 +22,14 @@ AUTH0_CLIENT_ID='YOUR_AUTH0_CLIENT_ID'
 AUTH0_CLIENT_SECRET='YOUR_AUTH0_CLIENT_SECRET'
 ```
 
+## Errors when running via localhost (works fine in production at Heroku and Vercel)
+
+when running via localhost, getting this message after calling Login
+
+```java
+checks.state argument is missing
+```
+
 This is a [Next.js](https://nextjs.org/) project bootstrapped with [`create-next-app`](https://github.com/vercel/next.js/tree/canary/packages/create-next-app).
 
 ## Getting Started
